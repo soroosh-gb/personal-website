@@ -1,13 +1,14 @@
 import React from 'react';
 import './Home.css'
 import Projects from './Projects'
+import Pixelphoto from './Pixelphoto.png'
 
 class Home extends React.Component {
     render(){
       return    <div className="Home">
-                    <header className="Home-header">
+                    <header className="Home-header"> 
                         <div className="Line-top"></div>
-                        <h3>Projects</h3>
+                        <p>Projects</p>
                             <Projects />
                         <div className="Line-bottom"></div>
                     </header>
