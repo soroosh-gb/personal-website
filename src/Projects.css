@@ -13,4 +13,11 @@
 img {
     height: 50%;
     width: 90%;
+    display: inline-block;
+}
+
+.Btn{
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
 }
