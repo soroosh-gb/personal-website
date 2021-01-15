@@ -1,13 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import './App.css';
-import { Component } from 'react';
+import Pixelphoto from './Pixelphoto.png';
 
-class App extends Component {
-  render(){
-    return <>
-    <h1>Gooz</h1>gooz
-    </>
-  }
+
+function App() {
+  
+    return (
+      <div className="App">
+        <header className="App-header">
+          <Container>
+            <Row>
+              <Col class="col-8" md={3} md={6}>
+                <p class="text-left">Soroosh Golbabae</p>
+              </Col>
+              {/* <Col xs={4} md={3}>
+              <Image src={Pixelphoto} roundedCircle />
+              </Col> */}
+            </Row>
+          </Container>
+        </header>
+      </div>
+    )
+      
 }
 
 
