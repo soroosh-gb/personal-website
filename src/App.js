@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './App.css';
 import Pixelphoto from './Pixelphoto.png';
+import Projects from './Components/Projects'
 
 
 function App() {
@@ -21,6 +22,11 @@ function App() {
             </Row>
           </Container>
         </header>
+        
+        
+          <hr style={{ color: 'white', backgroundColor: 'white', height: '2px'}}/>
+        
+        <Projects />
       </div>
     )
       
