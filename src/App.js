@@ -16,14 +16,14 @@ function App() {
             <Row>
               <Col class="col-8" md={3} md={6}> 
                 <Typing speed={50}>
-                <p class="text-centre"> Hi, I am Soroosh Golbabae </p>
+                <p class="text-left"> Hi, I am Soroosh Golbabae </p>
                 <Typing.Delay ms={500}/>
-                  <p>I'm a full stack developer, experienced in Ruby on Rails and JavaScript with a background in sound engineering, music production and live performance.</p>
+                  <p class="text-left">I'm a full stack developer, experienced in Ruby on Rails and JavaScript with a background in sound engineering, music production and live performance.</p>
                 </Typing>
                 
               </Col>
               <Col>
-              <Image className="photo" src={BinaryPhoto} thumbnail />
+              <Image className="photo" src={BinaryPhoto} roundedCircle />
               </Col>
             </Row>
           </Container>

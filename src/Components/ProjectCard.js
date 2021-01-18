@@ -11,7 +11,7 @@ function ProjectCard(data) {
     console.log(data.data.image)
     return(  
         
-        <Card className="h-100 shadow-sm bg-white rounded">
+        <Card className="h-100 shadow-sm project-card rounded" >
             <Card.Title>{data.data.name}</Card.Title>
             <Card.Img className="card-image" variant="top" src={data.data.image} />
             <Card.Body>

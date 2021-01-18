@@ -5,6 +5,10 @@
     padding: 10px;
 }
  */
+
+ .project-card {
+    background-color: #e7e7e7; 
+ }
 .card-image {
     height: 60%;
     
@@ -12,7 +16,9 @@
 
 .a-black {
     color:black;
+    margin: 5px;
 }
 .a-red {
     color:red;
+    margin: 5px;
 }
