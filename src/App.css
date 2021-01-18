@@ -2,8 +2,7 @@ body {
   background-color: black;
 }
 .App {
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .App-header {
@@ -12,10 +11,16 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2.5vh;
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: aliceblue;
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  
 }
 
 /* .App-logo {

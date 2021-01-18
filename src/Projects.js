@@ -16,7 +16,7 @@ class Projects extends React.Component {
         return  <>
                     <div className="Project-card">
                          <h1>Sample Cache</h1>
-                         <img src={SampleCache}/>
+                         {/* <img src={SampleCache}/> */}
                          <a href="https://github.com/soroosh-gb/sample-cache-frontend/tree/soroosh-first"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
                          <a href="https://youtu.be/KuI0VSqFgLU" className="Btn"><FontAwesomeIcon icon={faYoutube} size="4x" /></a>
 
@@ -24,14 +24,14 @@ class Projects extends React.Component {
                     </div>
                     <div className="Project-card">
                         <h1>Web Drum mAchine</h1>
-                        <img src={WDM}/>
+                        {/* <img src={WDM}/> */}
                         <a href="https://github.com/soroosh-gb/wdm-front-end/tree/soroosh-golbabae"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
                         <a href="https://youtu.be/gob40NAEFI0" className="Btn"><FontAwesomeIcon icon={faYoutube} size="4x" /></a>
 
                     </div>
                     <div className="Project-card">
                         <h1>Playlist</h1>
-                        <img src={Playlist}/>
+                        {/* <img src={Playlist}/> */}
                         <a href="https://github.com/soroosh-gb/playlist-front-end"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
                         <a href="https://youtu.be/4ijTMj9LQdI" className="Btn"><FontAwesomeIcon icon={faYoutube} size="4x" /></a>
                     </div>

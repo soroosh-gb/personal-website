@@ -17,7 +17,7 @@ function Projects(){
             </Row>
             <Row>
                 {projects.map(data => (
-                    <Col xs={3} className="mb-5" key={`${data.id}`}>
+                    <Col key={`${data.id}`}>
                         <ProjectCard data={data}/>
                 </Col>
                 ))}
