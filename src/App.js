@@ -23,7 +23,7 @@ function App() {
                 
               </Col>
               <Col>
-              <Image className="photo" src={BinaryPhoto} roundedCircle />
+              <Image className="photo" src={BinaryPhoto} thumbnail />
               </Col>
             </Row>
           </Container>

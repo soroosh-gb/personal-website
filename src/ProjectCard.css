@@ -1,6 +1,18 @@
-.Btn{
+/* .Btn{
     cursor: pointer;
     background-color: white;
     border-style: none;
     padding: 10px;
+}
+ */
+.card-image {
+    height: 60%;
+    
+}
+
+.a-black {
+    color:black;
+}
+.a-red {
+    color:red;
 }

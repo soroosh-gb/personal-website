@@ -13,10 +13,10 @@ function ProjectCard(data) {
         
         <Card className="h-100 shadow-sm bg-white rounded">
             <Card.Title>{data.data.name}</Card.Title>
-            <Card.Img variant="top" src={data.data.image} />
+            <Card.Img className="card-image" variant="top" src={data.data.image} />
             <Card.Body>
-            <a href={data.data.github} target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
-            <a href={data.data.video} target="_blank" className="Btn"><FontAwesomeIcon icon={faYoutube} size="4x" /></a>
+            <a href={data.data.github} className="a-black" target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
+            <a href={data.data.video} className="a-red" target="_blank" ><FontAwesomeIcon icon={faYoutube} size="4x" /></a>
             </Card.Body>
         </Card>
        

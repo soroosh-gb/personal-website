@@ -12,7 +12,7 @@ function Projects(){
             <Container>
             <Row>
                 <Col>
-                <p class="text-centre">Projects</p>
+                <p class="text-centre" style={{color: 'white'}}>Projects</p>
                 </Col>
             </Row>
             <Row>
