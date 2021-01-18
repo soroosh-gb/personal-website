@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css'
-import WDM from './WDM.png'
-import SampleCache from './SampleCache.png'
-import Playlist from './Playlist.png'
+// import WDM from './WDM.png'
+// import SampleCache from './SampleCache.png'
+// import Playlist from './Playlist.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 

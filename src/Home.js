@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 import Projects from './Projects'
-import Pixelphoto from './Pixelphoto.png'
+
 
 class Home extends React.Component {
     render(){

@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import projects from '../data'
 import ProjectCard  from './ProjectCard'
 
+
 function Projects(){
     // console.log(projects)
     return (

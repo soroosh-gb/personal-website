@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './App.css';
-import Pixelphoto from './Pixelphoto.png';
 import Projects from './Components/Projects'
 
 
